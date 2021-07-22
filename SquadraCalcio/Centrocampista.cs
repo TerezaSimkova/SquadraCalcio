@@ -10,9 +10,13 @@ namespace SquadraCalcio
     {
         public int NumAssist { get; set; }
         public Centrocampista(string firstName, string lastName, int age, enumRuolo role, int numMaglia, int goalFatti, int numAssist)
-            : base(firstName, lastName, age, role, numMaglia,goalFatti)
+            : base(firstName, lastName, age, role, numMaglia, goalFatti)
         {
             NumAssist = numAssist;
+
+        }
+        public Centrocampista()
+        {
 
         }
     }

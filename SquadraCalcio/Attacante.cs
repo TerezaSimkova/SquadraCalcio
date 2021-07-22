@@ -15,5 +15,9 @@ namespace SquadraCalcio
             GoalFatti = goallFatti;
 
         }
+        public Attacante()
+        {
+
+        }
     }
 }

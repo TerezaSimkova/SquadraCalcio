@@ -10,10 +10,14 @@ namespace SquadraCalcio
     {
         public int  NumRecuperiPalla { get; set; }
         public Difensore(string firstName, string lastName, int age, enumRuolo role, int numMaglia, int goalFatti, int numAssist, int numRecuperiPalla)
-            : base(firstName, lastName, age, role, numMaglia, goalFatti,numAssist)
+            : base(firstName, lastName, age, role, numMaglia, goalFatti, numAssist)
         {
 
             NumRecuperiPalla = numRecuperiPalla;
+        }
+        public Difensore()
+        {
+
         }
     }
 }

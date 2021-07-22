@@ -10,9 +10,13 @@ namespace SquadraCalcio
     {
         public int NumAnniCarriera { get; set; }
         public Arbitro(string firstName, string lastName, int age, int numAnniCarriera)
-            :base(firstName,lastName,age)
+            : base(firstName, lastName, age)
         {
             NumAnniCarriera = numAnniCarriera;
+        }
+        public Arbitro()
+        {
+
         }
     }
 }
